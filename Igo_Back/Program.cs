@@ -22,8 +22,8 @@ namespace Igo_Back
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new UserManagement());
             //Application.Run(new Product_Management());
-            Application.Run(new HomePage_Back());
-            //Application.Run(new Frm_SupplierData()); 
+            //Application.Run(new HomePage_Back());
+            Application.Run(new Order_Management());
         }
     }
 }

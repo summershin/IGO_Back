@@ -83,6 +83,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="宜潔\BestSellerAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="宜潔\BestSellerAnalysis.designer.cs">
+      <DependentUpon>BestSellerAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="宜潔\Order_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="宜潔\Order_Management.designer.cs">
+      <DependentUpon>Order_Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="鈞傑\HomePage_Back.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +196,12 @@
     <Compile Include="慶陽\UserManagement.designer.cs">
       <DependentUpon>UserManagement.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="宜潔\BestSellerAnalysis.resx">
+      <DependentUpon>BestSellerAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="宜潔\Order_Management.resx">
+      <DependentUpon>Order_Management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="鈞傑\HomePage_Back.resx">
       <DependentUpon>HomePage_Back.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,6 +213,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="鈞傑\SupplierData.resx">
       <DependentUpon>SupplierData.cs</DependentUpon>
@@ -246,12 +265,11 @@
       <DependentUpon>IgoModel.edmx</DependentUpon>
       <LastGenOutput>IgoModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\images.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="宜潔\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
