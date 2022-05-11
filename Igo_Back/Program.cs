@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1;
+using 期中專題;
+using 期中專題.BackEnd;
 
 namespace Igo_Back
 {
@@ -19,7 +21,9 @@ namespace Igo_Back
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new UserManagement());
-            Application.Run(new Product_Management());
+            //Application.Run(new Product_Management());
+            Application.Run(new HomePage_Back());
+            //Application.Run(new Frm_SupplierData()); 
         }
     }
 }

@@ -83,6 +83,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="鈞傑\HomePage_Back.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="鈞傑\HomePage_Back.designer.cs">
+      <DependentUpon>HomePage_Back.cs</DependentUpon>
+    </Compile>
     <Compile Include="IgoModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -118,9 +124,6 @@
     <Compile Include="Seat.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="SeatAndOrder.cs">
-      <DependentUpon>IgoModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Shipper.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
     </Compile>
@@ -132,6 +135,12 @@
     </Compile>
     <Compile Include="Supplier.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="鈞傑\SupplierData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="鈞傑\SupplierData.designer.cs">
+      <DependentUpon>SupplierData.cs</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
@@ -175,6 +184,9 @@
     <Compile Include="慶陽\UserManagement.designer.cs">
       <DependentUpon>UserManagement.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="鈞傑\HomePage_Back.resx">
+      <DependentUpon>HomePage_Back.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -184,6 +196,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="鈞傑\SupplierData.resx">
+      <DependentUpon>SupplierData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="子慧\Comment_Management.resx">
       <DependentUpon>Comment_Management.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,7 +252,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="宜潔\" />
-    <Folder Include="鈞傑\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
