@@ -107,6 +107,7 @@ namespace 期中專題.BackEnd
             this.btn_OrdersM.TabIndex = 9;
             this.btn_OrdersM.Text = "訂單管理";
             this.btn_OrdersM.UseVisualStyleBackColor = true;
+            this.btn_OrdersM.Click += new System.EventHandler(this.btn_OrdersM_Click);
             // 
             // btn_SupplierM
             // 
@@ -128,6 +129,7 @@ namespace 期中專題.BackEnd
             this.btn_FeedBackM.TabIndex = 7;
             this.btn_FeedBackM.Text = "評論管理";
             this.btn_FeedBackM.UseVisualStyleBackColor = true;
+            this.btn_FeedBackM.Click += new System.EventHandler(this.btn_FeedBackM_Click);
             // 
             // btn_ProductM
             // 
@@ -138,6 +140,7 @@ namespace 期中專題.BackEnd
             this.btn_ProductM.TabIndex = 6;
             this.btn_ProductM.Text = "商品管理";
             this.btn_ProductM.UseVisualStyleBackColor = true;
+            this.btn_ProductM.Click += new System.EventHandler(this.btn_ProductM_Click);
             // 
             // btn_MemberM
             // 
@@ -148,6 +151,7 @@ namespace 期中專題.BackEnd
             this.btn_MemberM.TabIndex = 5;
             this.btn_MemberM.Text = "會員資料管理";
             this.btn_MemberM.UseVisualStyleBackColor = true;
+            this.btn_MemberM.Click += new System.EventHandler(this.btn_MemberM_Click);
             // 
             // HomePage_Back
             // 

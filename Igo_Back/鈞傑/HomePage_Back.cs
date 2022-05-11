@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace 期中專題.BackEnd
 {
@@ -21,11 +23,55 @@ namespace 期中專題.BackEnd
 
         private void btn_SupplierM_Click(object sender, EventArgs e)
         {
-            Frm_SupplierData frm_sup = new Frm_SupplierData();
-            frm_sup.MdiParent = this;
-            frm_sup.Parent = this.splitContainer2.Panel2;
-           
-            frm_sup.Show();
+
+            this.splitContainer2.Panel2.Controls.Clear();
+            Frm_SupplierData f = new Frm_SupplierData();
+            f.MdiParent = this;
+            f.Parent = this.splitContainer2.Panel2;
+
+            f.Show();
+        }
+
+        private void btn_MemberM_Click(object sender, EventArgs e)
+        {
+            this.splitContainer2.Panel2.Controls.Clear();
+            UserManagement fu = new UserManagement();
+            fu.MdiParent = this;
+            fu.Parent = this.splitContainer2.Panel2;
+            fu.Show();
+
+        }
+
+        private void btn_FeedBackM_Click(object sender, EventArgs e)
+        {
+            this.splitContainer2.Panel2.Controls.Clear();
+            Comment_Management fc = new Comment_Management();
+            fc.MdiParent = this;
+            fc.Parent = this.splitContainer2.Panel2;
+
+            fc.Show();
+        }
+
+
+            private void btn_ProductM_Click(object sender, EventArgs e)
+        {
+            this.splitContainer2.Panel2.Controls.Clear();
+            Product_Management fp = new Product_Management();
+            fp.MdiParent = this;
+            fp.Parent = this.splitContainer2.Panel2;
+            fp.Show();
+
+
+        }
+
+        private void btn_OrdersM_Click(object sender, EventArgs e)
+        {
+            this.splitContainer2.Panel2.Controls.Clear();
+            Order_Management fp = new Order_Management();
+            fp.MdiParent = this;
+            fp.Parent = this.splitContainer2.Panel2;
+            fp.Show();
+
         }
     }
 }
