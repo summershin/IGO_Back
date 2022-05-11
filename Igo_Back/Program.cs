@@ -18,7 +18,8 @@ namespace Igo_Back
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserManagement());
+            //Application.Run(new UserManagement());
+            Application.Run(new Product_Management());
         }
     }
 }
