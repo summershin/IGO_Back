@@ -18,6 +18,7 @@ namespace 期中專題
         {
             InitializeComponent();
             Loadcmb();
+            bd_spl1();
 
 
         }
@@ -27,7 +28,16 @@ namespace 期中專題
 
         private void Loadcmb()
         {
+            var q = from spl in IgoContext.Suppliers
+                    orderby spl.SupplierID ascending
+                    select spl.SupplierID;
 
+            var q2 = from spl in IgoContext.Suppliers
+                     orderby spl.SupplierID ascending
+                     select spl.SupplierID;
+
+            cmb_splID.DataSource = q.ToList();
+            cmb_SupplierID.DataSource = q2.ToList();
             //===================================================================
 
             //var q_city = from c in IgoContext.Cities
@@ -53,16 +63,7 @@ namespace 期中專題
 
         }
 
-        private void loadCmbID()
-        {
-            var q = from spl in IgoContext.Suppliers
-                    orderby spl.SupplierID ascending
-                    select spl.SupplierID;
-
-            cmb_SupplierID.DataSource = q.ToList();
-        }
-
-        private void LoadCmbToDvg()
+        private void bd_spl1()
         {
             var q = from spl in IgoContext.Suppliers
                     select new
@@ -75,22 +76,23 @@ namespace 期中專題
                     };
 
             bindingSource1.DataSource = q.ToList();
-
-
             cmb_SupplierID.DataBindings.Add("Text", bindingSource1, "SupplierID");
             txt_CRUD_SName.DataBindings.Add("Text", bindingSource1, "CompanyName");
             txt_CRUD_SPhone.DataBindings.Add("Text", bindingSource1, "Phone");
             txt_CRUD_SAddress.DataBindings.Add("Text", bindingSource1, "Address");
 
+            dgv_Upate_Delete.DataSource = bindingSource1;
         }
 
 
         private void reSetDataGvd()
 
         {
-            this.IgoContext.SaveChanges();
+
             this.dgv_Search.DataSource = null;
             this.dgv_Search.DataSource = this.IgoContext.Suppliers.ToList();
+            dgv_Upate_Delete.DataSource = this.IgoContext.Suppliers.ToList();
+
 
         }
 
@@ -99,22 +101,27 @@ namespace 期中專題
 
         private void btn_ADD_Click(object sender, EventArgs e)
         {
+           
+
+            //Supplier supplier = new Supplier()
+            //{
+
+            //    CompanyName = txt_CRUD_SName.Text,
+            //    Phone = txt_CRUD_SPhone.Text,
+            //    Address = txt_CRUD_SAddress.Text
+
+            //};
+
+            //IgoContext.Suppliers.Add(supplier);
+            //IgoContext.SaveChanges();
+            //var q = this.IgoContext.Suppliers.AsEnumerable().ToList().LastOrDefault();
 
 
-            Supplier supplier = new Supplier()
-            {
-
-                CompanyName = txt_CRUD_SName.Text,
-                Phone = txt_CRUD_SPhone.Text,
-                Address = txt_CRUD_SAddress.Text
-
-            };
-
-            IgoContext.Suppliers.Add(supplier);
-            dgv_Search.DataSource = this.IgoContext.Suppliers.ToList();
+            //dgv_PreviewAdd.DataSource = q;
 
 
-            reSetDataGvd();
+            //reSetDataGvd();
+            
 
 
         }
@@ -135,8 +142,11 @@ namespace 期中專題
                 IgoContext.SaveChanges();
 
                 MessageBox.Show("已成功新增資料");
-                dgv_Upate_Delete.DataSource = this.IgoContext.Suppliers.ToList();
 
+
+                dgv_PreviewAdd.DataSource = IgoContext.Suppliers.ToList();
+
+                reSetDataGvd();
             }
 
             catch (Exception)
@@ -145,7 +155,7 @@ namespace 期中專題
             }
 
             Loadcmb();
-            reSetDataGvd();
+            
 
         }
 
@@ -156,33 +166,30 @@ namespace 期中專題
         private void btn_ReadAll_Click(object sender, EventArgs e)
         {
             this.dgv_Search.DataSource = IgoContext.Suppliers.ToList();
-
-
         }
 
-
+        
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            if (cmb_SupplierID.SelectedItem == null)
-            {
-                loadCmbID();
-                LoadCmbToDvg();
-                dgv_Upate_Delete.DataSource = bindingSource1;
-            }
-
-            else
-            {
+            
                 dgv_Upate_Delete.CurrentCell = dgv_Upate_Delete.Rows[cmb_SupplierID.SelectedIndex].Cells[0];
                 dgv_Upate_Delete.Rows[cmb_SupplierID.SelectedIndex].Selected = true;
-            }
 
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Search_ID_Click(object sender, EventArgs e)
         {
-            //LoadCmbToDvg();
+
+            this.dgv_Search.DataSource = IgoContext.Suppliers.ToList();
+            dgv_Search.CurrentCell = dgv_Search.Rows[cmb_splID.SelectedIndex].Cells[0];
+            dgv_Search.Rows[cmb_splID.SelectedIndex].Selected = true;
+
+
+        }
+
+        private void btn_Search_F_SplName_Click(object sender, EventArgs e)
+        {
             this.dgv_Search.DataSource = IgoContext.Suppliers.ToList();
             dgv_Search.CurrentCell = dgv_Search.Rows[cmb_SupplierName.SelectedIndex].Cells[0];
             dgv_Search.Rows[cmb_SupplierName.SelectedIndex].Selected = true;
@@ -190,10 +197,16 @@ namespace 期中專題
 
 
 
+
+
+
         //==UpDate===============================================================
 
         private void btn_Update_Click(object sender, EventArgs e)
         {
+            string sn = txt_CRUD_SName.Text;
+            string sp = txt_CRUD_SPhone.Text;
+            string sa = txt_CRUD_SAddress.Text;
 
             try
             {
@@ -204,6 +217,10 @@ namespace 期中專題
                 {
                     MessageBox.Show("修改失敗");
                     return;
+                }
+                else if(sn==null ||sp ==null || sa==null)
+                {
+                    MessageBox.Show("修改失敗 ! 請勿空白欄位");
                 }
                 else
                 {
@@ -267,25 +284,69 @@ namespace 期中專題
             txt_CRUD_SAddress.Text = null;
             txt_CRUD_SName.Text = null;
             txt_CRUD_SPhone.Text = null;
-            dgv_Search.DataSource = null;
-            dgv_Upate_Delete.DataSource = null;
+            //dgv_Search.DataSource = null;
+           
 
         }
+        private void btn_txtsearchName_Click(object sender, EventArgs e)
+        {
+            string splName = txt_searchName.Text;
+            var q = from n in IgoContext.Suppliers
+                    where n.CompanyName.Contains(splName)
+                    select n;
 
+            dgv_Search.DataSource = q.ToList();
+        }
         private void btn_Search_F_Address_Click(object sender, EventArgs e)
         {
             
          
 
-            string address = textBox1.Text;
-            var q = from p in IgoContext.Suppliers
-                    where p.Address.Contains(address)
-                    select p;
+            string address = txt_address.Text;
+            var q = from a in IgoContext.Suppliers
+                    where a.Address.Contains(address)
+                    select a;
 
             dgv_Search.DataSource = q.ToList();
             
 
         }
 
+        private void Frm_SupplierData_Load(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void btn_Del_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                var q = this.IgoContext.Suppliers.AsEnumerable().
+                               Where(spl => spl.SupplierID == int.Parse(cmb_SupplierID.Text)).LastOrDefault();
+
+                if (q == null)
+                {
+                    MessageBox.Show("刪除失敗");
+                    return;
+                }
+                else
+                {
+                    IgoContext.Suppliers.Remove(q);
+                    IgoContext.SaveChanges();
+                    MessageBox.Show("刪除成功");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            reSetDataGvd();
+            Loadcmb();
+
+        }
     }
 }

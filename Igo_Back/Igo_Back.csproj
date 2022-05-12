@@ -148,12 +148,6 @@
     <Compile Include="Supplier.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="鈞傑\SupplierData.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="鈞傑\SupplierData.designer.cs">
-      <DependentUpon>SupplierData.cs</DependentUpon>
-    </Compile>
     <Compile Include="sysdiagram.cs">
       <DependentUpon>IgoModel.tt</DependentUpon>
     </Compile>
@@ -196,6 +190,12 @@
     <Compile Include="慶陽\UserManagement.designer.cs">
       <DependentUpon>UserManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="鈞傑\SupplierData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="鈞傑\SupplierData.designer.cs">
+      <DependentUpon>SupplierData.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="宜潔\BestSellerAnalysis.resx">
       <DependentUpon>BestSellerAnalysis.cs</DependentUpon>
     </EmbeddedResource>
@@ -215,9 +215,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="鈞傑\SupplierData.resx">
-      <DependentUpon>SupplierData.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="子慧\Comment_Management.resx">
       <DependentUpon>Comment_Management.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="慶陽\UserManagement.resx">
       <DependentUpon>UserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="鈞傑\SupplierData.resx">
+      <DependentUpon>SupplierData.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="IgoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -265,6 +265,8 @@
       <DependentUpon>IgoModel.edmx</DependentUpon>
       <LastGenOutput>IgoModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\rgbWatame.gif" />
+    <None Include="Resources\圖片381.jpg" />
     <None Include="Resources\images.png" />
     <None Include="Resources\image.png" />
     <None Include="Resources\004.png" />

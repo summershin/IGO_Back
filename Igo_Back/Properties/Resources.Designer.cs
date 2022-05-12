@@ -353,6 +353,16 @@ namespace Igo_Back.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap rgbWatame {
+            get {
+                object obj = ResourceManager.GetObject("rgbWatame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 圖片1 {
             get {
                 object obj = ResourceManager.GetObject("圖片1", resourceCulture);
@@ -436,6 +446,16 @@ namespace Igo_Back.Properties {
         internal static System.Drawing.Bitmap 圖片38 {
             get {
                 object obj = ResourceManager.GetObject("圖片38", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片381 {
+            get {
+                object obj = ResourceManager.GetObject("圖片381", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
