@@ -30,7 +30,7 @@ namespace IGO
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label9 = new System.Windows.Forms.Label();
@@ -39,7 +39,6 @@ namespace IGO
             this.checkBox_CusPhone = new System.Windows.Forms.CheckBox();
             this.checkBox_OrderID = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.btn_OpenDetails = new System.Windows.Forms.Button();
             this.btn_Search = new System.Windows.Forms.Button();
             this.btn_SearchAll = new System.Windows.Forms.Button();
@@ -69,7 +68,6 @@ namespace IGO
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_DeleteMovie = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.lab_SeatsAlarm = new System.Windows.Forms.Label();
             this.dgv_OrderDetails = new System.Windows.Forms.DataGridView();
             this.lab_TicketID = new System.Windows.Forms.Label();
@@ -144,7 +142,6 @@ namespace IGO
             this.splitContainer1.Panel1.Controls.Add(this.checkBox_CusPhone);
             this.splitContainer1.Panel1.Controls.Add(this.checkBox_OrderID);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.label7);
             this.splitContainer1.Panel1.Controls.Add(this.btn_OpenDetails);
             this.splitContainer1.Panel1.Controls.Add(this.btn_Search);
             this.splitContainer1.Panel1.Controls.Add(this.btn_SearchAll);
@@ -179,7 +176,6 @@ namespace IGO
             this.splitContainer1.Panel2.Controls.Add(this.btn_Delete);
             this.splitContainer1.Panel2.Controls.Add(this.btn_DeleteMovie);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
-            this.splitContainer1.Panel2.Controls.Add(this.label8);
             this.splitContainer1.Panel2.Controls.Add(this.lab_SeatsAlarm);
             this.splitContainer1.Panel2.Controls.Add(this.dgv_OrderDetails);
             this.splitContainer1.Panel2.Controls.Add(this.lab_TicketID);
@@ -297,19 +293,6 @@ namespace IGO
             this.pictureBox1.TabIndex = 69;
             this.pictureBox1.TabStop = false;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.label7.Location = new System.Drawing.Point(530, 282);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 19);
-            this.label7.TabIndex = 68;
-            this.label7.Text = "-訂單-";
-            // 
             // btn_OpenDetails
             // 
             this.btn_OpenDetails.BackColor = System.Drawing.Color.Transparent;
@@ -365,14 +348,14 @@ namespace IGO
             this.dgv_Orders.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_Orders.Name = "dgv_Orders";
             this.dgv_Orders.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Pink;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Orders.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Pink;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Orders.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_Orders.RowHeadersWidth = 62;
             this.dgv_Orders.RowTemplate.Height = 31;
             this.dgv_Orders.Size = new System.Drawing.Size(572, 348);
@@ -691,19 +674,6 @@ namespace IGO
             this.pictureBox2.Size = new System.Drawing.Size(171, 176);
             this.pictureBox2.TabIndex = 71;
             this.pictureBox2.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label8.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.label8.Location = new System.Drawing.Point(427, 285);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 19);
-            this.label8.TabIndex = 69;
-            this.label8.Text = "-訂單明細-";
             // 
             // lab_SeatsAlarm
             // 
@@ -1210,8 +1180,6 @@ namespace IGO
         private System.Windows.Forms.Label lab_TicketTpyeName;
         private System.Windows.Forms.TextBox txt_TicketTpyeName;
         private System.Windows.Forms.TextBox txt_btn_SearchOrderDetailsID;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox2;

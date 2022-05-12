@@ -133,8 +133,8 @@ namespace IGO
             // Btn_SearchAll
             // 
             this.Btn_SearchAll.BackColor = System.Drawing.Color.Transparent;
-            this.Btn_SearchAll.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Btn_SearchAll.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btn_SearchAll.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Btn_SearchAll.ForeColor = System.Drawing.Color.Red;
             this.Btn_SearchAll.Location = new System.Drawing.Point(48, 37);
             this.Btn_SearchAll.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_SearchAll.Name = "Btn_SearchAll";
@@ -331,7 +331,7 @@ namespace IGO
             // Lb_CustomerNumber
             // 
             this.Lb_CustomerNumber.AutoSize = true;
-            this.Lb_CustomerNumber.BackColor = System.Drawing.Color.Transparent;
+            this.Lb_CustomerNumber.BackColor = System.Drawing.Color.LightPink;
             this.Lb_CustomerNumber.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lb_CustomerNumber.Location = new System.Drawing.Point(280, 60);
             this.Lb_CustomerNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -367,7 +367,7 @@ namespace IGO
             // Lb_Date
             // 
             this.Lb_Date.AutoSize = true;
-            this.Lb_Date.BackColor = System.Drawing.Color.Transparent;
+            this.Lb_Date.BackColor = System.Drawing.Color.LightPink;
             this.Lb_Date.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lb_Date.Location = new System.Drawing.Point(238, 121);
             this.Lb_Date.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -398,7 +398,7 @@ namespace IGO
             // Lb_ChangeStar
             // 
             this.Lb_ChangeStar.AutoSize = true;
-            this.Lb_ChangeStar.BackColor = System.Drawing.Color.Transparent;
+            this.Lb_ChangeStar.BackColor = System.Drawing.Color.LightPink;
             this.Lb_ChangeStar.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lb_ChangeStar.Location = new System.Drawing.Point(8, 56);
             this.Lb_ChangeStar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -410,7 +410,7 @@ namespace IGO
             // Lb_Comment
             // 
             this.Lb_Comment.AutoSize = true;
-            this.Lb_Comment.BackColor = System.Drawing.Color.Transparent;
+            this.Lb_Comment.BackColor = System.Drawing.Color.LightPink;
             this.Lb_Comment.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Lb_Comment.Location = new System.Drawing.Point(41, 115);
             this.Lb_Comment.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
