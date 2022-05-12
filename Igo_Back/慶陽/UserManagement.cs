@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Security;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -71,7 +72,9 @@ namespace WindowsFormsApp1
                 return;
             }
 
-            
+            string password = txt_Password.Text;
+            password = FormsAuthentication.HashPasswordForStoringInConfigFile(password, "SHA1");
+
             var q = dbcontext.Customers.AsEnumerable().Where(n => n.Phone == dataGridView1.CurrentRow.Cells[1].Value.ToString());
 
             System.IO.MemoryStream ms = new System.IO.MemoryStream();
@@ -81,7 +84,7 @@ namespace WindowsFormsApp1
             foreach (var change in q)
             {
                 change.Phone = txt_Phone.Text;
-                change.Password = txt_Password.Text;
+                change.Password = password;
                 change.LastName = txt_LastName.Text;
                 change.FirstName = txt_FirstName.Text;
                 change.Email = txt_Email.Text;
@@ -211,6 +214,9 @@ namespace WindowsFormsApp1
             }
         }
 
-      
+        private void txt_LastName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
