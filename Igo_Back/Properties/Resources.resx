@@ -118,11 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="圖片8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\圖片8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片57.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="016.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\016.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1326607478-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1326607478-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="02.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="019.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\019.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,6 +148,9 @@
   <data name="04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="圖片40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="01.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,6 +166,9 @@
   <data name="05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="圖片43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,14 +181,26 @@
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="圖片2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\020.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rgbWatame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rgbWatame.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖片66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片66.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="021.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\021.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖片55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片55.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="圖片5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\圖片5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,11 +214,8 @@
   <data name="005" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="07" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="圖片34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\圖片34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="圖片21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\圖片21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,20 +223,26 @@
   <data name="圖片7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\圖片7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="圖片39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\圖片39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="圖片12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\圖片12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="02.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片67.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖片51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖片401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖片8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="03.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\03.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,8 +250,8 @@
   <data name="017.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\017.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="圖片2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\圖片2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="圖片71" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\圖片71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,8 +262,11 @@
   <data name="002" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="020" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\020.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0051" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,13 +280,16 @@
   <data name="0211" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\021.jpg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="004" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rgbWatame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rgbWatame.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="圖片69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖片69.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

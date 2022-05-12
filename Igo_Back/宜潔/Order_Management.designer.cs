@@ -30,16 +30,18 @@ namespace IGO
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.btn_OpenDetails = new System.Windows.Forms.Button();
-            this.btn_Search = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btn_advanceSearch = new System.Windows.Forms.Button();
             this.checkBox_OrderDate = new System.Windows.Forms.CheckBox();
             this.checkBox_CusPhone = new System.Windows.Forms.CheckBox();
             this.checkBox_OrderID = new System.Windows.Forms.CheckBox();
-            this.btn_advanceSearch = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btn_OpenDetails = new System.Windows.Forms.Button();
+            this.btn_Search = new System.Windows.Forms.Button();
             this.btn_SearchAll = new System.Windows.Forms.Button();
             this.dgv_Orders = new System.Windows.Forms.DataGridView();
             this.txt_Status = new System.Windows.Forms.TextBox();
@@ -62,19 +64,22 @@ namespace IGO
             this.txt_PayType = new System.Windows.Forms.TextBox();
             this.lab_ShippedDate = new System.Windows.Forms.Label();
             this.lab_PayType = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_DeleteMovie = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.lab_SeatsAlarm = new System.Windows.Forms.Label();
             this.dgv_OrderDetails = new System.Windows.Forms.DataGridView();
             this.lab_TicketID = new System.Windows.Forms.Label();
+            this.btn_bestseller = new System.Windows.Forms.Button();
             this.lab_ProductID = new System.Windows.Forms.Label();
             this.txt_TicketID = new System.Windows.Forms.TextBox();
             this.txt_ProductID = new System.Windows.Forms.TextBox();
             this.dgv_Seats = new System.Windows.Forms.DataGridView();
             this.Secret_SeatID = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.Secret_UnitPrice = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_Delete = new System.Windows.Forms.Button();
-            this.btn_DeleteMovie = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_DeleteMovieTicket = new System.Windows.Forms.Button();
             this.Secret_SubcategoryID = new System.Windows.Forms.Label();
@@ -97,9 +102,6 @@ namespace IGO
             this.lab_TicketTpyeName = new System.Windows.Forms.Label();
             this.txt_TicketTpyeName = new System.Windows.Forms.TextBox();
             this.txt_btn_SearchOrderDetailsID = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.btn_bestseller = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource3 = new System.Windows.Forms.BindingSource(this.components);
@@ -109,11 +111,11 @@ namespace IGO
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Orders)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_OrderDetails)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Seats)).BeginInit();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource3)).BeginInit();
@@ -136,10 +138,15 @@ namespace IGO
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Linen;
             this.splitContainer1.Panel1.BackgroundImage = global::Igo_Back.Properties.Resources.圖片381;
+            this.splitContainer1.Panel1.Controls.Add(this.label9);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_advanceSearch);
+            this.splitContainer1.Panel1.Controls.Add(this.checkBox_OrderDate);
+            this.splitContainer1.Panel1.Controls.Add(this.checkBox_CusPhone);
+            this.splitContainer1.Panel1.Controls.Add(this.checkBox_OrderID);
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             this.splitContainer1.Panel1.Controls.Add(this.label7);
             this.splitContainer1.Panel1.Controls.Add(this.btn_OpenDetails);
             this.splitContainer1.Panel1.Controls.Add(this.btn_Search);
-            this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
             this.splitContainer1.Panel1.Controls.Add(this.btn_SearchAll);
             this.splitContainer1.Panel1.Controls.Add(this.dgv_Orders);
             this.splitContainer1.Panel1.Controls.Add(this.txt_Status);
@@ -167,6 +174,11 @@ namespace IGO
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.MistyRose;
             this.splitContainer1.Panel2.BackgroundImage = global::Igo_Back.Properties.Resources.圖片381;
+            this.splitContainer1.Panel2.Controls.Add(this.label11);
+            this.splitContainer1.Panel2.Controls.Add(this.label1);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Delete);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_DeleteMovie);
+            this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.label8);
             this.splitContainer1.Panel2.Controls.Add(this.lab_SeatsAlarm);
             this.splitContainer1.Panel2.Controls.Add(this.dgv_OrderDetails);
@@ -177,9 +189,7 @@ namespace IGO
             this.splitContainer1.Panel2.Controls.Add(this.txt_ProductID);
             this.splitContainer1.Panel2.Controls.Add(this.dgv_Seats);
             this.splitContainer1.Panel2.Controls.Add(this.Secret_SeatID);
-            this.splitContainer1.Panel2.Controls.Add(this.label1);
             this.splitContainer1.Panel2.Controls.Add(this.Secret_UnitPrice);
-            this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Panel2.Controls.Add(this.label6);
             this.splitContainer1.Panel2.Controls.Add(this.btn_DeleteMovieTicket);
             this.splitContainer1.Panel2.Controls.Add(this.Secret_SubcategoryID);
@@ -206,91 +216,27 @@ namespace IGO
             this.splitContainer1.SplitterDistance = 675;
             this.splitContainer1.TabIndex = 72;
             // 
-            // btn_OpenDetails
+            // label9
             // 
-            this.btn_OpenDetails.BackColor = System.Drawing.Color.CadetBlue;
-            this.btn_OpenDetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_OpenDetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_OpenDetails.Location = new System.Drawing.Point(578, 261);
-            this.btn_OpenDetails.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_OpenDetails.Name = "btn_OpenDetails";
-            this.btn_OpenDetails.Size = new System.Drawing.Size(88, 41);
-            this.btn_OpenDetails.TabIndex = 21;
-            this.btn_OpenDetails.Text = "開啟明細";
-            this.btn_OpenDetails.UseVisualStyleBackColor = false;
-            this.btn_OpenDetails.Click += new System.EventHandler(this.btn_Details_Click);
-            // 
-            // btn_Search
-            // 
-            this.btn_Search.BackColor = System.Drawing.Color.SteelBlue;
-            this.btn_Search.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Search.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Search.Location = new System.Drawing.Point(598, 198);
-            this.btn_Search.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(68, 29);
-            this.btn_Search.TabIndex = 26;
-            this.btn_Search.Text = "查詢";
-            this.btn_Search.UseVisualStyleBackColor = false;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.checkBox_OrderDate);
-            this.groupBox1.Controls.Add(this.checkBox_CusPhone);
-            this.groupBox1.Controls.Add(this.checkBox_OrderID);
-            this.groupBox1.Controls.Add(this.btn_advanceSearch);
-            this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox1.Location = new System.Drawing.Point(516, 42);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(150, 151);
-            this.groupBox1.TabIndex = 67;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "進階查詢";
-            // 
-            // checkBox_OrderDate
-            // 
-            this.checkBox_OrderDate.AutoSize = true;
-            this.checkBox_OrderDate.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.checkBox_OrderDate.Location = new System.Drawing.Point(24, 71);
-            this.checkBox_OrderDate.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox_OrderDate.Name = "checkBox_OrderDate";
-            this.checkBox_OrderDate.Size = new System.Drawing.Size(92, 24);
-            this.checkBox_OrderDate.TabIndex = 35;
-            this.checkBox_OrderDate.Text = "訂單日期";
-            this.checkBox_OrderDate.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_CusPhone
-            // 
-            this.checkBox_CusPhone.AutoSize = true;
-            this.checkBox_CusPhone.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.checkBox_CusPhone.Location = new System.Drawing.Point(24, 49);
-            this.checkBox_CusPhone.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox_CusPhone.Name = "checkBox_CusPhone";
-            this.checkBox_CusPhone.Size = new System.Drawing.Size(92, 24);
-            this.checkBox_CusPhone.TabIndex = 34;
-            this.checkBox_CusPhone.Text = "會員電話";
-            this.checkBox_CusPhone.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_OrderID
-            // 
-            this.checkBox_OrderID.AutoSize = true;
-            this.checkBox_OrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.checkBox_OrderID.Location = new System.Drawing.Point(24, 26);
-            this.checkBox_OrderID.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox_OrderID.Name = "checkBox_OrderID";
-            this.checkBox_OrderID.Size = new System.Drawing.Size(92, 24);
-            this.checkBox_OrderID.TabIndex = 33;
-            this.checkBox_OrderID.Text = "訂單編號";
-            this.checkBox_OrderID.UseVisualStyleBackColor = true;
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("微軟正黑體 Light", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label9.Location = new System.Drawing.Point(494, 19);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(69, 19);
+            this.label9.TabIndex = 70;
+            this.label9.Text = "進階查詢";
             // 
             // btn_advanceSearch
             // 
-            this.btn_advanceSearch.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_advanceSearch.BackColor = System.Drawing.Color.Transparent;
+            this.btn_advanceSearch.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
+            this.btn_advanceSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_advanceSearch.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_advanceSearch.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_advanceSearch.Location = new System.Drawing.Point(31, 106);
+            this.btn_advanceSearch.Location = new System.Drawing.Point(498, 129);
             this.btn_advanceSearch.Margin = new System.Windows.Forms.Padding(2);
             this.btn_advanceSearch.Name = "btn_advanceSearch";
             this.btn_advanceSearch.Size = new System.Drawing.Size(85, 34);
@@ -299,9 +245,106 @@ namespace IGO
             this.btn_advanceSearch.UseVisualStyleBackColor = false;
             this.btn_advanceSearch.Click += new System.EventHandler(this.btn_transferToSearch_Click);
             // 
+            // checkBox_OrderDate
+            // 
+            this.checkBox_OrderDate.AutoSize = true;
+            this.checkBox_OrderDate.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox_OrderDate.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.checkBox_OrderDate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.checkBox_OrderDate.Location = new System.Drawing.Point(498, 97);
+            this.checkBox_OrderDate.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox_OrderDate.Name = "checkBox_OrderDate";
+            this.checkBox_OrderDate.Size = new System.Drawing.Size(93, 25);
+            this.checkBox_OrderDate.TabIndex = 35;
+            this.checkBox_OrderDate.Text = "訂單日期";
+            this.checkBox_OrderDate.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_CusPhone
+            // 
+            this.checkBox_CusPhone.AutoSize = true;
+            this.checkBox_CusPhone.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox_CusPhone.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.checkBox_CusPhone.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.checkBox_CusPhone.Location = new System.Drawing.Point(498, 69);
+            this.checkBox_CusPhone.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox_CusPhone.Name = "checkBox_CusPhone";
+            this.checkBox_CusPhone.Size = new System.Drawing.Size(93, 25);
+            this.checkBox_CusPhone.TabIndex = 34;
+            this.checkBox_CusPhone.Text = "會員電話";
+            this.checkBox_CusPhone.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_OrderID
+            // 
+            this.checkBox_OrderID.AutoSize = true;
+            this.checkBox_OrderID.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox_OrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.checkBox_OrderID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.checkBox_OrderID.Location = new System.Drawing.Point(498, 43);
+            this.checkBox_OrderID.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox_OrderID.Name = "checkBox_OrderID";
+            this.checkBox_OrderID.Size = new System.Drawing.Size(93, 25);
+            this.checkBox_OrderID.TabIndex = 33;
+            this.checkBox_OrderID.Text = "訂單編號";
+            this.checkBox_OrderID.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Igo_Back.Properties.Resources.圖片55;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(466, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(156, 176);
+            this.pictureBox1.TabIndex = 69;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label7.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.label7.Location = new System.Drawing.Point(530, 282);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 19);
+            this.label7.TabIndex = 68;
+            this.label7.Text = "-訂單-";
+            // 
+            // btn_OpenDetails
+            // 
+            this.btn_OpenDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btn_OpenDetails.BackgroundImage = global::Igo_Back.Properties.Resources.圖片43;
+            this.btn_OpenDetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_OpenDetails.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_OpenDetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_OpenDetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_OpenDetails.Location = new System.Drawing.Point(587, 468);
+            this.btn_OpenDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_OpenDetails.Name = "btn_OpenDetails";
+            this.btn_OpenDetails.Size = new System.Drawing.Size(86, 71);
+            this.btn_OpenDetails.TabIndex = 21;
+            this.btn_OpenDetails.UseVisualStyleBackColor = false;
+            this.btn_OpenDetails.Click += new System.EventHandler(this.btn_Details_Click);
+            // 
+            // btn_Search
+            // 
+            this.btn_Search.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Search.BackgroundImage = global::Igo_Back.Properties.Resources.圖片69;
+            this.btn_Search.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Search.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Search.Location = new System.Drawing.Point(552, 212);
+            this.btn_Search.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(88, 34);
+            this.btn_Search.TabIndex = 26;
+            this.btn_Search.Text = "查詢";
+            this.btn_Search.UseVisualStyleBackColor = false;
+            // 
             // btn_SearchAll
             // 
-            this.btn_SearchAll.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_SearchAll.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SearchAll.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
+            this.btn_SearchAll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_SearchAll.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_SearchAll.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_SearchAll.Location = new System.Drawing.Point(11, 8);
@@ -322,25 +365,25 @@ namespace IGO
             this.dgv_Orders.Margin = new System.Windows.Forms.Padding(2);
             this.dgv_Orders.Name = "dgv_Orders";
             this.dgv_Orders.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Pink;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Orders.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Pink;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Orders.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_Orders.RowHeadersWidth = 62;
             this.dgv_Orders.RowTemplate.Height = 31;
-            this.dgv_Orders.Size = new System.Drawing.Size(655, 348);
+            this.dgv_Orders.Size = new System.Drawing.Size(572, 348);
             this.dgv_Orders.TabIndex = 0;
             // 
             // txt_Status
             // 
-            this.txt_Status.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_Status.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_Status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Status.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Status.Location = new System.Drawing.Point(305, 169);
+            this.txt_Status.Location = new System.Drawing.Point(305, 174);
             this.txt_Status.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Status.Name = "txt_Status";
             this.txt_Status.ReadOnly = true;
@@ -349,10 +392,10 @@ namespace IGO
             // 
             // txt_LastName
             // 
-            this.txt_LastName.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_LastName.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_LastName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_LastName.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_LastName.Location = new System.Drawing.Point(307, 65);
+            this.txt_LastName.Location = new System.Drawing.Point(307, 63);
             this.txt_LastName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_LastName.Name = "txt_LastName";
             this.txt_LastName.ReadOnly = true;
@@ -383,7 +426,7 @@ namespace IGO
             // 
             // txt_OrderID
             // 
-            this.txt_OrderID.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_OrderID.BackColor = System.Drawing.Color.White;
             this.txt_OrderID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_OrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txt_OrderID.Location = new System.Drawing.Point(87, 63);
@@ -420,7 +463,7 @@ namespace IGO
             // 
             // txt_CusPhone
             // 
-            this.txt_CusPhone.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_CusPhone.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_CusPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_CusPhone.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txt_CusPhone.ForeColor = System.Drawing.Color.LavenderBlush;
@@ -432,13 +475,14 @@ namespace IGO
             // 
             // btn_UpdateOrders
             // 
-            this.btn_UpdateOrders.BackColor = System.Drawing.Color.Chocolate;
+            this.btn_UpdateOrders.BackColor = System.Drawing.Color.Transparent;
+            this.btn_UpdateOrders.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_UpdateOrders.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_UpdateOrders.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_UpdateOrders.Location = new System.Drawing.Point(453, 217);
+            this.btn_UpdateOrders.Location = new System.Drawing.Point(464, 212);
             this.btn_UpdateOrders.Margin = new System.Windows.Forms.Padding(2);
             this.btn_UpdateOrders.Name = "btn_UpdateOrders";
-            this.btn_UpdateOrders.Size = new System.Drawing.Size(68, 29);
+            this.btn_UpdateOrders.Size = new System.Drawing.Size(84, 34);
             this.btn_UpdateOrders.TabIndex = 49;
             this.btn_UpdateOrders.Text = "修改";
             this.btn_UpdateOrders.UseVisualStyleBackColor = false;
@@ -470,10 +514,10 @@ namespace IGO
             // 
             // txt_FirstName
             // 
-            this.txt_FirstName.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_FirstName.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_FirstName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_FirstName.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_FirstName.Location = new System.Drawing.Point(305, 108);
+            this.txt_FirstName.Location = new System.Drawing.Point(305, 114);
             this.txt_FirstName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_FirstName.Name = "txt_FirstName";
             this.txt_FirstName.ReadOnly = true;
@@ -482,7 +526,7 @@ namespace IGO
             // 
             // comboBox_StatusType
             // 
-            this.comboBox_StatusType.BackColor = System.Drawing.Color.LavenderBlush;
+            this.comboBox_StatusType.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.comboBox_StatusType.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.comboBox_StatusType.FormattingEnabled = true;
             this.comboBox_StatusType.Location = new System.Drawing.Point(305, 216);
@@ -544,7 +588,7 @@ namespace IGO
             // 
             // txt_PayType
             // 
-            this.txt_PayType.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txt_PayType.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_PayType.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_PayType.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txt_PayType.Location = new System.Drawing.Point(86, 217);
@@ -580,16 +624,97 @@ namespace IGO
             this.lab_PayType.TabIndex = 13;
             this.lab_PayType.Text = "付款方式";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("微軟正黑體 Light", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label11.Location = new System.Drawing.Point(548, 29);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(69, 19);
+            this.label11.TabIndex = 71;
+            this.label11.Text = "刪除選項";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.label1.Location = new System.Drawing.Point(802, 282);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 19);
+            this.label1.TabIndex = 77;
+            this.label1.Text = "-座位表-";
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.BackColor = System.Drawing.Color.Cornsilk;
+            this.btn_Delete.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
+            this.btn_Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Delete.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Delete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Delete.Location = new System.Drawing.Point(552, 113);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(124, 28);
+            this.btn_Delete.TabIndex = 43;
+            this.btn_Delete.Text = "刪除景點住宿訂單明細";
+            this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
+            // 
+            // btn_DeleteMovie
+            // 
+            this.btn_DeleteMovie.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DeleteMovie.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
+            this.btn_DeleteMovie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DeleteMovie.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_DeleteMovie.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_DeleteMovie.Location = new System.Drawing.Point(552, 65);
+            this.btn_DeleteMovie.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_DeleteMovie.Name = "btn_DeleteMovie";
+            this.btn_DeleteMovie.Size = new System.Drawing.Size(124, 30);
+            this.btn_DeleteMovie.TabIndex = 64;
+            this.btn_DeleteMovie.Text = "刪除電影訂單";
+            this.btn_DeleteMovie.UseVisualStyleBackColor = false;
+            this.btn_DeleteMovie.Click += new System.EventHandler(this.btn_DeleteMovie_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Igo_Back.Properties.Resources.圖片55;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(532, 22);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(171, 176);
+            this.pictureBox2.TabIndex = 71;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label8.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.label8.Location = new System.Drawing.Point(427, 285);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 19);
+            this.label8.TabIndex = 69;
+            this.label8.Text = "-訂單明細-";
+            // 
             // lab_SeatsAlarm
             // 
             this.lab_SeatsAlarm.AutoSize = true;
             this.lab_SeatsAlarm.BackColor = System.Drawing.Color.Tomato;
-            this.lab_SeatsAlarm.Font = new System.Drawing.Font("微軟正黑體", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lab_SeatsAlarm.Font = new System.Drawing.Font("微軟正黑體", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lab_SeatsAlarm.ForeColor = System.Drawing.Color.White;
-            this.lab_SeatsAlarm.Location = new System.Drawing.Point(707, 179);
+            this.lab_SeatsAlarm.Location = new System.Drawing.Point(740, 151);
             this.lab_SeatsAlarm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_SeatsAlarm.Name = "lab_SeatsAlarm";
-            this.lab_SeatsAlarm.Size = new System.Drawing.Size(143, 19);
+            this.lab_SeatsAlarm.Size = new System.Drawing.Size(126, 17);
             this.lab_SeatsAlarm.TabIndex = 61;
             this.lab_SeatsAlarm.Text = "~~產品熱銷分析~~";
             this.lab_SeatsAlarm.Visible = false;
@@ -619,6 +744,20 @@ namespace IGO
             this.lab_TicketID.TabIndex = 76;
             this.lab_TicketID.Text = "TicketID";
             this.lab_TicketID.Visible = false;
+            // 
+            // btn_bestseller
+            // 
+            this.btn_bestseller.BackgroundImage = global::Igo_Back.Properties.Resources.圖片66;
+            this.btn_bestseller.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_bestseller.Font = new System.Drawing.Font("微軟正黑體 Light", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_bestseller.Location = new System.Drawing.Point(733, 31);
+            this.btn_bestseller.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_bestseller.Name = "btn_bestseller";
+            this.btn_bestseller.Size = new System.Drawing.Size(139, 143);
+            this.btn_bestseller.TabIndex = 70;
+            this.btn_bestseller.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_bestseller.UseVisualStyleBackColor = true;
+            this.btn_bestseller.Click += new System.EventHandler(this.btn_bestseller_Click);
             // 
             // lab_ProductID
             // 
@@ -679,18 +818,6 @@ namespace IGO
             this.Secret_SeatID.TabIndex = 62;
             this.Secret_SeatID.Text = "Secret_SeatID";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightBlue;
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(527, 282);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
-            this.label1.TabIndex = 68;
-            this.label1.Text = "座位表";
-            // 
             // Secret_UnitPrice
             // 
             this.Secret_UnitPrice.AutoSize = true;
@@ -701,48 +828,6 @@ namespace IGO
             this.Secret_UnitPrice.Size = new System.Drawing.Size(90, 15);
             this.Secret_UnitPrice.TabIndex = 66;
             this.Secret_UnitPrice.Text = "Secret_UnitPrice";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.OldLace;
-            this.groupBox2.Controls.Add(this.btn_Delete);
-            this.groupBox2.Controls.Add(this.btn_DeleteMovie);
-            this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox2.Location = new System.Drawing.Point(497, 51);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(168, 119);
-            this.groupBox2.TabIndex = 68;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "刪除選項";
-            // 
-            // btn_Delete
-            // 
-            this.btn_Delete.BackColor = System.Drawing.Color.Cornsilk;
-            this.btn_Delete.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Delete.Location = new System.Drawing.Point(11, 70);
-            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(149, 28);
-            this.btn_Delete.TabIndex = 43;
-            this.btn_Delete.Text = "刪除景點住宿訂單明細";
-            this.btn_Delete.UseVisualStyleBackColor = false;
-            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
-            // 
-            // btn_DeleteMovie
-            // 
-            this.btn_DeleteMovie.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_DeleteMovie.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_DeleteMovie.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_DeleteMovie.Location = new System.Drawing.Point(11, 29);
-            this.btn_DeleteMovie.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_DeleteMovie.Name = "btn_DeleteMovie";
-            this.btn_DeleteMovie.Size = new System.Drawing.Size(123, 30);
-            this.btn_DeleteMovie.TabIndex = 64;
-            this.btn_DeleteMovie.Text = "刪除電影訂單";
-            this.btn_DeleteMovie.UseVisualStyleBackColor = false;
-            this.btn_DeleteMovie.Click += new System.EventHandler(this.btn_DeleteMovie_Click);
             // 
             // label6
             // 
@@ -793,6 +878,8 @@ namespace IGO
             // btn_SearchAllOrderdetails
             // 
             this.btn_SearchAllOrderdetails.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_SearchAllOrderdetails.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
+            this.btn_SearchAllOrderdetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_SearchAllOrderdetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_SearchAllOrderdetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_SearchAllOrderdetails.Location = new System.Drawing.Point(14, 10);
@@ -816,13 +903,14 @@ namespace IGO
             // 
             // btn_UpdateOrderDetails
             // 
-            this.btn_UpdateOrderDetails.BackColor = System.Drawing.Color.Chocolate;
+            this.btn_UpdateOrderDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btn_UpdateOrderDetails.BackgroundImage = global::Igo_Back.Properties.Resources.圖片401;
             this.btn_UpdateOrderDetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_UpdateOrderDetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_UpdateOrderDetails.Location = new System.Drawing.Point(407, 169);
+            this.btn_UpdateOrderDetails.Location = new System.Drawing.Point(407, 163);
             this.btn_UpdateOrderDetails.Margin = new System.Windows.Forms.Padding(2);
             this.btn_UpdateOrderDetails.Name = "btn_UpdateOrderDetails";
-            this.btn_UpdateOrderDetails.Size = new System.Drawing.Size(68, 31);
+            this.btn_UpdateOrderDetails.Size = new System.Drawing.Size(83, 38);
             this.btn_UpdateOrderDetails.TabIndex = 41;
             this.btn_UpdateOrderDetails.Text = "修改";
             this.btn_UpdateOrderDetails.UseVisualStyleBackColor = false;
@@ -954,13 +1042,14 @@ namespace IGO
             // 
             // btn_SearchOrderDetails
             // 
-            this.btn_SearchOrderDetails.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_SearchOrderDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SearchOrderDetails.BackgroundImage = global::Igo_Back.Properties.Resources.圖片69;
             this.btn_SearchOrderDetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_SearchOrderDetails.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_SearchOrderDetails.Location = new System.Drawing.Point(407, 57);
+            this.btn_SearchOrderDetails.Location = new System.Drawing.Point(407, 51);
             this.btn_SearchOrderDetails.Margin = new System.Windows.Forms.Padding(2);
             this.btn_SearchOrderDetails.Name = "btn_SearchOrderDetails";
-            this.btn_SearchOrderDetails.Size = new System.Drawing.Size(68, 33);
+            this.btn_SearchOrderDetails.Size = new System.Drawing.Size(83, 39);
             this.btn_SearchOrderDetails.TabIndex = 55;
             this.btn_SearchOrderDetails.Text = "查詢";
             this.btn_SearchOrderDetails.UseVisualStyleBackColor = false;
@@ -1015,45 +1104,6 @@ namespace IGO
             this.txt_btn_SearchOrderDetailsID.Size = new System.Drawing.Size(141, 29);
             this.txt_btn_SearchOrderDetailsID.TabIndex = 56;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.ForeColor = System.Drawing.Color.Gold;
-            this.label7.Location = new System.Drawing.Point(627, 9);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(39, 19);
-            this.label7.TabIndex = 68;
-            this.label7.Text = "訂單";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label8.ForeColor = System.Drawing.Color.Gold;
-            this.label8.Location = new System.Drawing.Point(802, 10);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 19);
-            this.label8.TabIndex = 69;
-            this.label8.Text = "訂單明細";
-            // 
-            // btn_bestseller
-            // 
-            this.btn_bestseller.Font = new System.Drawing.Font("微軟正黑體 Light", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_bestseller.Image = global::Igo_Back.Properties.Resources.images;
-            this.btn_bestseller.Location = new System.Drawing.Point(691, 43);
-            this.btn_bestseller.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_bestseller.Name = "btn_bestseller";
-            this.btn_bestseller.Size = new System.Drawing.Size(180, 159);
-            this.btn_bestseller.TabIndex = 70;
-            this.btn_bestseller.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_bestseller.UseVisualStyleBackColor = true;
-            this.btn_bestseller.Click += new System.EventHandler(this.btn_bestseller_Click);
-            // 
             // bindingSource2
             // 
             this.bindingSource2.DataSourceChanged += new System.EventHandler(this.bindingSource2_DataSourceChanged);
@@ -1076,12 +1126,11 @@ namespace IGO
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Orders)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_OrderDetails)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Seats)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource3)).EndInit();
@@ -1101,7 +1150,6 @@ namespace IGO
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button btn_OpenDetails;
         private System.Windows.Forms.Button btn_Search;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkBox_OrderDate;
         private System.Windows.Forms.CheckBox checkBox_CusPhone;
         private System.Windows.Forms.CheckBox checkBox_OrderID;
@@ -1137,9 +1185,7 @@ namespace IGO
         private System.Windows.Forms.DataGridView dgv_Seats;
         private System.Windows.Forms.Label lab_SeatsAlarm;
         private System.Windows.Forms.Label Secret_SeatID;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Secret_UnitPrice;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_Delete;
         private System.Windows.Forms.Button btn_DeleteMovie;
         private System.Windows.Forms.Label label6;
@@ -1166,6 +1212,11 @@ namespace IGO
         private System.Windows.Forms.TextBox txt_btn_SearchOrderDetailsID;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label11;
     }
 }
 

@@ -353,6 +353,16 @@ namespace Igo_Back.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1326607478_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1326607478-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap rgbWatame {
             get {
                 object obj = ResourceManager.GetObject("rgbWatame", resourceCulture);
@@ -433,6 +443,16 @@ namespace Igo_Back.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap 圖片36 {
+            get {
+                object obj = ResourceManager.GetObject("圖片36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 圖片37 {
             get {
                 object obj = ResourceManager.GetObject("圖片37", resourceCulture);
@@ -473,6 +493,36 @@ namespace Igo_Back.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap 圖片40 {
+            get {
+                object obj = ResourceManager.GetObject("圖片40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片401 {
+            get {
+                object obj = ResourceManager.GetObject("圖片401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片43 {
+            get {
+                object obj = ResourceManager.GetObject("圖片43", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 圖片5 {
             get {
                 object obj = ResourceManager.GetObject("圖片5", resourceCulture);
@@ -483,9 +533,69 @@ namespace Igo_Back.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap 圖片51 {
+            get {
+                object obj = ResourceManager.GetObject("圖片51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片55 {
+            get {
+                object obj = ResourceManager.GetObject("圖片55", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片57 {
+            get {
+                object obj = ResourceManager.GetObject("圖片57", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 圖片6 {
             get {
                 object obj = ResourceManager.GetObject("圖片6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片66 {
+            get {
+                object obj = ResourceManager.GetObject("圖片66", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片67 {
+            get {
+                object obj = ResourceManager.GetObject("圖片67", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 圖片69 {
+            get {
+                object obj = ResourceManager.GetObject("圖片69", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

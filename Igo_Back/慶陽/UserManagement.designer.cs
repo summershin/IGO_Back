@@ -65,33 +65,41 @@ namespace WindowsFormsApp1
             // 
             // btn_Delete
             // 
+            this.btn_Delete.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Delete.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Delete.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Delete.Location = new System.Drawing.Point(1031, 300);
-            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Delete.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btn_Delete.Location = new System.Drawing.Point(1046, 263);
+            this.btn_Delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(107, 51);
+            this.btn_Delete.Size = new System.Drawing.Size(107, 56);
             this.btn_Delete.TabIndex = 43;
             this.btn_Delete.Text = "Delete";
-            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.UseVisualStyleBackColor = false;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // btn_Save
             // 
-            this.btn_Save.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Save.Location = new System.Drawing.Point(724, 302);
-            this.btn_Save.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Save.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Save.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
+            this.btn_Save.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Save.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Save.Location = new System.Drawing.Point(773, 264);
+            this.btn_Save.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Save.Name = "btn_Save";
-            this.btn_Save.Size = new System.Drawing.Size(93, 51);
+            this.btn_Save.Size = new System.Drawing.Size(112, 55);
             this.btn_Save.TabIndex = 42;
             this.btn_Save.Text = "Save";
-            this.btn_Save.UseVisualStyleBackColor = true;
+            this.btn_Save.UseVisualStyleBackColor = false;
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Browses
             // 
+            this.btn_Browses.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_Browses.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Browses.Location = new System.Drawing.Point(1416, 355);
-            this.btn_Browses.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Browses.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Browses.Location = new System.Drawing.Point(1416, 279);
+            this.btn_Browses.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Browses.Name = "btn_Browses";
             this.btn_Browses.Size = new System.Drawing.Size(131, 43);
             this.btn_Browses.TabIndex = 41;
@@ -119,7 +127,7 @@ namespace WindowsFormsApp1
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(148, 243);
+            this.label8.Location = new System.Drawing.Point(117, 218);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(120, 31);
@@ -129,8 +137,8 @@ namespace WindowsFormsApp1
             // txt_Address
             // 
             this.txt_Address.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Address.Location = new System.Drawing.Point(288, 242);
-            this.txt_Address.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Address.Location = new System.Drawing.Point(253, 218);
+            this.txt_Address.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Address.Name = "txt_Address";
             this.txt_Address.Size = new System.Drawing.Size(302, 33);
             this.txt_Address.TabIndex = 37;
@@ -141,7 +149,7 @@ namespace WindowsFormsApp1
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(719, 189);
+            this.label6.Location = new System.Drawing.Point(752, 163);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(112, 31);
@@ -154,7 +162,7 @@ namespace WindowsFormsApp1
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(169, 189);
+            this.label5.Location = new System.Drawing.Point(138, 164);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(99, 31);
@@ -164,8 +172,8 @@ namespace WindowsFormsApp1
             // txt_Email
             // 
             this.txt_Email.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Email.Location = new System.Drawing.Point(288, 189);
-            this.txt_Email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Email.Location = new System.Drawing.Point(253, 165);
+            this.txt_Email.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Email.Name = "txt_Email";
             this.txt_Email.Size = new System.Drawing.Size(302, 33);
             this.txt_Email.TabIndex = 32;
@@ -177,7 +185,7 @@ namespace WindowsFormsApp1
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(718, 131);
+            this.label4.Location = new System.Drawing.Point(718, 105);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(151, 31);
@@ -187,10 +195,10 @@ namespace WindowsFormsApp1
             // txt_FirstName
             // 
             this.txt_FirstName.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_FirstName.Location = new System.Drawing.Point(869, 129);
-            this.txt_FirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_FirstName.Location = new System.Drawing.Point(868, 103);
+            this.txt_FirstName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_FirstName.Name = "txt_FirstName";
-            this.txt_FirstName.Size = new System.Drawing.Size(154, 33);
+            this.txt_FirstName.Size = new System.Drawing.Size(170, 33);
             this.txt_FirstName.TabIndex = 30;
             // 
             // label3
@@ -199,7 +207,7 @@ namespace WindowsFormsApp1
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(120, 131);
+            this.label3.Location = new System.Drawing.Point(89, 106);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 31);
@@ -209,10 +217,10 @@ namespace WindowsFormsApp1
             // txt_LastName
             // 
             this.txt_LastName.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_LastName.Location = new System.Drawing.Point(288, 131);
-            this.txt_LastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_LastName.Location = new System.Drawing.Point(253, 107);
+            this.txt_LastName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_LastName.Name = "txt_LastName";
-            this.txt_LastName.Size = new System.Drawing.Size(152, 33);
+            this.txt_LastName.Size = new System.Drawing.Size(201, 33);
             this.txt_LastName.TabIndex = 28;
             // 
             // label2
@@ -221,7 +229,7 @@ namespace WindowsFormsApp1
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(719, 76);
+            this.label2.Location = new System.Drawing.Point(718, 51);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 31);
@@ -231,10 +239,10 @@ namespace WindowsFormsApp1
             // txt_Password
             // 
             this.txt_Password.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Password.Location = new System.Drawing.Point(869, 76);
-            this.txt_Password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Password.Location = new System.Drawing.Point(868, 53);
+            this.txt_Password.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Password.Name = "txt_Password";
-            this.txt_Password.Size = new System.Drawing.Size(154, 33);
+            this.txt_Password.Size = new System.Drawing.Size(170, 33);
             this.txt_Password.TabIndex = 26;
             // 
             // label1
@@ -243,7 +251,7 @@ namespace WindowsFormsApp1
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(169, 76);
+            this.label1.Location = new System.Drawing.Point(138, 51);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 31);
@@ -253,34 +261,38 @@ namespace WindowsFormsApp1
             // txt_Phone
             // 
             this.txt_Phone.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Phone.Location = new System.Drawing.Point(288, 73);
-            this.txt_Phone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Phone.Location = new System.Drawing.Point(253, 49);
+            this.txt_Phone.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Phone.Name = "txt_Phone";
-            this.txt_Phone.Size = new System.Drawing.Size(152, 33);
+            this.txt_Phone.Size = new System.Drawing.Size(201, 33);
             this.txt_Phone.TabIndex = 24;
             this.txt_Phone.TextChanged += new System.EventHandler(this.txt_Phone_TextChanged);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 429);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 346);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(709, 375);
+            this.dataGridView1.Size = new System.Drawing.Size(709, 425);
             this.dataGridView1.TabIndex = 46;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // dataGridView2
             // 
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(773, 429);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Location = new System.Drawing.Point(758, 346);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 27;
-            this.dataGridView2.Size = new System.Drawing.Size(807, 375);
+            this.dataGridView2.Size = new System.Drawing.Size(807, 425);
             this.dataGridView2.TabIndex = 47;
             // 
             // cbx_Gender
@@ -290,8 +302,8 @@ namespace WindowsFormsApp1
             this.cbx_Gender.Items.AddRange(new object[] {
             "男",
             "女"});
-            this.cbx_Gender.Location = new System.Drawing.Point(869, 188);
-            this.cbx_Gender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbx_Gender.Location = new System.Drawing.Point(869, 162);
+            this.cbx_Gender.Margin = new System.Windows.Forms.Padding(2);
             this.cbx_Gender.Name = "cbx_Gender";
             this.cbx_Gender.Size = new System.Drawing.Size(83, 32);
             this.cbx_Gender.TabIndex = 49;
@@ -300,8 +312,8 @@ namespace WindowsFormsApp1
             // txt_Search
             // 
             this.txt_Search.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_Search.Location = new System.Drawing.Point(288, 300);
-            this.txt_Search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Search.Location = new System.Drawing.Point(253, 276);
+            this.txt_Search.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Search.Name = "txt_Search";
             this.txt_Search.Size = new System.Drawing.Size(206, 33);
             this.txt_Search.TabIndex = 50;
@@ -312,7 +324,7 @@ namespace WindowsFormsApp1
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(40, 302);
+            this.label10.Location = new System.Drawing.Point(9, 277);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(228, 31);
@@ -321,11 +333,13 @@ namespace WindowsFormsApp1
             // 
             // btn_Search
             // 
+            this.btn_Search.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Search.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Search.Location = new System.Drawing.Point(498, 300);
-            this.btn_Search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Search.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Search.Location = new System.Drawing.Point(486, 267);
+            this.btn_Search.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(92, 35);
+            this.btn_Search.Size = new System.Drawing.Size(136, 55);
             this.btn_Search.TabIndex = 52;
             this.btn_Search.Text = "Search";
             this.btn_Search.UseVisualStyleBackColor = true;
@@ -337,7 +351,7 @@ namespace WindowsFormsApp1
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(719, 248);
+            this.label7.Location = new System.Drawing.Point(770, 220);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(81, 31);
@@ -346,24 +360,27 @@ namespace WindowsFormsApp1
             // 
             // dtp_Birth
             // 
-            this.dtp_Birth.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.dtp_Birth.Location = new System.Drawing.Point(869, 246);
-            this.dtp_Birth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_Birth.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.dtp_Birth.Location = new System.Drawing.Point(869, 218);
+            this.dtp_Birth.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_Birth.Name = "dtp_Birth";
-            this.dtp_Birth.Size = new System.Drawing.Size(154, 29);
+            this.dtp_Birth.Size = new System.Drawing.Size(169, 33);
             this.dtp_Birth.TabIndex = 54;
             this.dtp_Birth.Value = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             // 
             // btn_Refresh
             // 
+            this.btn_Refresh.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Refresh.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Refresh.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Refresh.Location = new System.Drawing.Point(875, 302);
-            this.btn_Refresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Refresh.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Refresh.Location = new System.Drawing.Point(906, 263);
+            this.btn_Refresh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Refresh.Name = "btn_Refresh";
-            this.btn_Refresh.Size = new System.Drawing.Size(107, 51);
+            this.btn_Refresh.Size = new System.Drawing.Size(118, 56);
             this.btn_Refresh.TabIndex = 55;
             this.btn_Refresh.Text = "Refresh";
-            this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.UseVisualStyleBackColor = false;
             this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // lb_Phone
@@ -372,7 +389,7 @@ namespace WindowsFormsApp1
             this.lb_Phone.BackColor = System.Drawing.Color.Transparent;
             this.lb_Phone.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lb_Phone.ForeColor = System.Drawing.Color.White;
-            this.lb_Phone.Location = new System.Drawing.Point(444, 78);
+            this.lb_Phone.Location = new System.Drawing.Point(458, 51);
             this.lb_Phone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_Phone.Name = "lb_Phone";
             this.lb_Phone.Size = new System.Drawing.Size(97, 16);
@@ -385,7 +402,7 @@ namespace WindowsFormsApp1
             this.lb_email.BackColor = System.Drawing.Color.Transparent;
             this.lb_email.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lb_email.ForeColor = System.Drawing.Color.White;
-            this.lb_email.Location = new System.Drawing.Point(444, 137);
+            this.lb_email.Location = new System.Drawing.Point(458, 121);
             this.lb_email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_email.Name = "lb_email";
             this.lb_email.Size = new System.Drawing.Size(97, 16);
@@ -397,9 +414,9 @@ namespace WindowsFormsApp1
             this.pic_Photo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pic_Photo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pic_Photo.Location = new System.Drawing.Point(1293, 22);
-            this.pic_Photo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pic_Photo.Margin = new System.Windows.Forms.Padding(2);
             this.pic_Photo.Name = "pic_Photo";
-            this.pic_Photo.Size = new System.Drawing.Size(254, 292);
+            this.pic_Photo.Size = new System.Drawing.Size(254, 248);
             this.pic_Photo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic_Photo.TabIndex = 40;
             this.pic_Photo.TabStop = false;
@@ -440,7 +457,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Phone);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserManagement";
             this.Text = "UserManagement";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

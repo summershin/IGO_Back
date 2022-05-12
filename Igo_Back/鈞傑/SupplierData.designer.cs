@@ -30,9 +30,9 @@ namespace 期中專題
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lbl_SupplierTitle = new System.Windows.Forms.Label();
             this.btn_Create = new System.Windows.Forms.Button();
             this.gpb_CURD = new System.Windows.Forms.GroupBox();
@@ -52,7 +52,6 @@ namespace 期中專題
             this.cmb_SupplierID = new System.Windows.Forms.ComboBox();
             this.dgv_Upate_Delete = new System.Windows.Forms.DataGridView();
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.dgv_PreviewAdd = new System.Windows.Forms.DataGridView();
             this.dgv_Search = new System.Windows.Forms.DataGridView();
             this.cmb_splID = new System.Windows.Forms.ComboBox();
             this.cmb_SupplierName = new System.Windows.Forms.ComboBox();
@@ -71,19 +70,18 @@ namespace 期中專題
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_Del = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dgv_PreviewAdd = new System.Windows.Forms.DataGridView();
             this.gpb_CURD.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Upate_Delete)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_PreviewAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Search)).BeginInit();
             this.grb_資料查詢.SuspendLayout();
             this.grb_Search_F_City.SuspendLayout();
             this.grb_Search_f_SplName.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_PreviewAdd)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_SupplierTitle
@@ -100,9 +98,10 @@ namespace 期中專題
             // 
             // btn_Create
             // 
-            this.btn_Create.BackColor = System.Drawing.Color.Salmon;
+            this.btn_Create.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Create.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_Create.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Create.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_Create.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_Create.Location = new System.Drawing.Point(403, 120);
             this.btn_Create.Name = "btn_Create";
             this.btn_Create.Size = new System.Drawing.Size(206, 51);
@@ -124,7 +123,7 @@ namespace 期中專題
             this.gpb_CURD.Controls.Add(this.txt_CRUD_SName);
             this.gpb_CURD.Controls.Add(this.btn_Create);
             this.gpb_CURD.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.gpb_CURD.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.gpb_CURD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gpb_CURD.Location = new System.Drawing.Point(12, 17);
             this.gpb_CURD.Name = "gpb_CURD";
             this.gpb_CURD.Size = new System.Drawing.Size(763, 178);
@@ -145,7 +144,8 @@ namespace 期中專題
             // 
             // btn_Clear
             // 
-            this.btn_Clear.BackColor = System.Drawing.Color.Salmon;
+            this.btn_Clear.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Clear.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_Clear.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_Clear.Location = new System.Drawing.Point(625, 120);
             this.btn_Clear.Name = "btn_Clear";
@@ -187,7 +187,7 @@ namespace 期中專題
             this.label9.AutoSize = true;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label9.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label9.Location = new System.Drawing.Point(13, 39);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(129, 28);
@@ -205,10 +205,11 @@ namespace 期中專題
             // 
             // btn_ADD
             // 
-            this.btn_ADD.BackColor = System.Drawing.Color.Salmon;
+            this.btn_ADD.BackColor = System.Drawing.Color.Transparent;
+            this.btn_ADD.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_ADD.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_ADD.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_ADD.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_ADD.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_ADD.Location = new System.Drawing.Point(363, 573);
             this.btn_ADD.Name = "btn_ADD";
             this.btn_ADD.Size = new System.Drawing.Size(212, 39);
@@ -220,9 +221,10 @@ namespace 期中專題
             // 
             // btn_Update
             // 
-            this.btn_Update.BackColor = System.Drawing.Color.Salmon;
+            this.btn_Update.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Update.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_Update.Font = new System.Drawing.Font("微軟正黑體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_Update.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_Update.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Update.Location = new System.Drawing.Point(603, 255);
             this.btn_Update.Name = "btn_Update";
             this.btn_Update.Size = new System.Drawing.Size(196, 69);
@@ -246,8 +248,10 @@ namespace 期中專題
             // 
             // btn_crud_ID
             // 
-            this.btn_crud_ID.BackColor = System.Drawing.Color.Salmon;
+            this.btn_crud_ID.BackColor = System.Drawing.Color.Transparent;
+            this.btn_crud_ID.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_crud_ID.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_crud_ID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_crud_ID.Location = new System.Drawing.Point(339, 214);
             this.btn_crud_ID.Name = "btn_crud_ID";
             this.btn_crud_ID.Size = new System.Drawing.Size(90, 30);
@@ -261,6 +265,7 @@ namespace 期中專題
             this.lbl_SuppilerID.AutoSize = true;
             this.lbl_SuppilerID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_SuppilerID.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbl_SuppilerID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbl_SuppilerID.Location = new System.Drawing.Point(20, 218);
             this.lbl_SuppilerID.Name = "lbl_SuppilerID";
             this.lbl_SuppilerID.Size = new System.Drawing.Size(134, 28);
@@ -278,41 +283,6 @@ namespace 期中專題
             // 
             // dgv_Upate_Delete
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Upate_Delete.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_Upate_Delete.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Upate_Delete.Location = new System.Drawing.Point(36, 256);
-            this.dgv_Upate_Delete.Name = "dgv_Upate_Delete";
-            this.dgv_Upate_Delete.RowTemplate.Height = 24;
-            this.dgv_Upate_Delete.Size = new System.Drawing.Size(549, 356);
-            this.dgv_Upate_Delete.TabIndex = 19;
-            // 
-            // dgv_PreviewAdd
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_PreviewAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgv_PreviewAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_PreviewAdd.Location = new System.Drawing.Point(26, 498);
-            this.dgv_PreviewAdd.Name = "dgv_PreviewAdd";
-            this.dgv_PreviewAdd.RowTemplate.Height = 24;
-            this.dgv_PreviewAdd.Size = new System.Drawing.Size(549, 69);
-            this.dgv_PreviewAdd.TabIndex = 27;
-            this.dgv_PreviewAdd.Visible = false;
-            // 
-            // dgv_Search
-            // 
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -320,7 +290,24 @@ namespace 期中專題
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Search.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_Upate_Delete.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_Upate_Delete.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Upate_Delete.Location = new System.Drawing.Point(36, 256);
+            this.dgv_Upate_Delete.Name = "dgv_Upate_Delete";
+            this.dgv_Upate_Delete.RowTemplate.Height = 24;
+            this.dgv_Upate_Delete.Size = new System.Drawing.Size(549, 356);
+            this.dgv_Upate_Delete.TabIndex = 19;
+            // 
+            // dgv_Search
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Search.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_Search.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Search.Location = new System.Drawing.Point(13, 322);
             this.dgv_Search.Name = "dgv_Search";
@@ -348,8 +335,10 @@ namespace 期中專題
             // 
             // btn_ReadAll
             // 
-            this.btn_ReadAll.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_ReadAll.BackColor = System.Drawing.Color.Transparent;
+            this.btn_ReadAll.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_ReadAll.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_ReadAll.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_ReadAll.Location = new System.Drawing.Point(429, 243);
             this.btn_ReadAll.Name = "btn_ReadAll";
             this.btn_ReadAll.Size = new System.Drawing.Size(163, 73);
@@ -360,8 +349,10 @@ namespace 期中專題
             // 
             // btn_Search_ID
             // 
-            this.btn_Search_ID.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_Search_ID.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Search_ID.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Search_ID.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Search_ID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Search_ID.Location = new System.Drawing.Point(334, 282);
             this.btn_Search_ID.Name = "btn_Search_ID";
             this.btn_Search_ID.Size = new System.Drawing.Size(89, 34);
@@ -376,7 +367,7 @@ namespace 期中專題
             this.grb_資料查詢.Controls.Add(this.grb_Search_F_City);
             this.grb_資料查詢.Controls.Add(this.grb_Search_f_SplName);
             this.grb_資料查詢.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grb_資料查詢.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.grb_資料查詢.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.grb_資料查詢.Location = new System.Drawing.Point(13, 15);
             this.grb_資料查詢.Name = "grb_資料查詢";
             this.grb_資料查詢.Size = new System.Drawing.Size(561, 215);
@@ -390,7 +381,7 @@ namespace 期中專題
             this.grb_Search_F_City.Controls.Add(this.txt_address);
             this.grb_Search_F_City.Controls.Add(this.btn_Search_F_Address);
             this.grb_Search_F_City.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grb_Search_F_City.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.grb_Search_F_City.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.grb_Search_F_City.Location = new System.Drawing.Point(90, 116);
             this.grb_Search_F_City.Name = "grb_Search_F_City";
             this.grb_Search_F_City.Size = new System.Drawing.Size(409, 78);
@@ -409,6 +400,7 @@ namespace 期中專題
             // btn_Search_F_Address
             // 
             this.btn_Search_F_Address.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_Search_F_Address.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Search_F_Address.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_Search_F_Address.Location = new System.Drawing.Point(274, 29);
             this.btn_Search_F_Address.Name = "btn_Search_F_Address";
@@ -424,7 +416,7 @@ namespace 期中專題
             this.grb_Search_f_SplName.Controls.Add(this.txt_searchName);
             this.grb_Search_f_SplName.Controls.Add(this.btn_txtsearchName);
             this.grb_Search_f_SplName.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grb_Search_f_SplName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.grb_Search_f_SplName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.grb_Search_f_SplName.Location = new System.Drawing.Point(90, 43);
             this.grb_Search_f_SplName.Name = "grb_Search_f_SplName";
             this.grb_Search_f_SplName.Size = new System.Drawing.Size(409, 78);
@@ -442,7 +434,8 @@ namespace 期中專題
             // 
             // btn_txtsearchName
             // 
-            this.btn_txtsearchName.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_txtsearchName.BackColor = System.Drawing.Color.Transparent;
+            this.btn_txtsearchName.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_txtsearchName.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_txtsearchName.Location = new System.Drawing.Point(274, 32);
             this.btn_txtsearchName.Name = "btn_txtsearchName";
@@ -455,7 +448,9 @@ namespace 期中專題
             // btn_Search_F_SplName
             // 
             this.btn_Search_F_SplName.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_Search_F_SplName.BackgroundImage = global::Igo_Back.Properties.Resources.圖片40;
             this.btn_Search_F_SplName.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_Search_F_SplName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Search_F_SplName.Location = new System.Drawing.Point(334, 243);
             this.btn_Search_F_SplName.Name = "btn_Search_F_SplName";
             this.btn_Search_F_SplName.Size = new System.Drawing.Size(89, 33);
@@ -469,6 +464,7 @@ namespace 期中專題
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(13, 243);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 28);
@@ -480,6 +476,7 @@ namespace 期中專題
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(13, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 28);
@@ -488,7 +485,7 @@ namespace 期中專題
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.AliceBlue;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.grb_資料查詢);
             this.panel1.Controls.Add(this.cmb_SupplierName);
@@ -506,7 +503,7 @@ namespace 期中專題
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LavenderBlush;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.btn_Del);
             this.panel2.Controls.Add(this.gpb_CURD);
@@ -517,7 +514,6 @@ namespace 期中專題
             this.panel2.Controls.Add(this.btn_crud_ID);
             this.panel2.Controls.Add(this.dgv_Upate_Delete);
             this.panel2.Controls.Add(this.btn_Update);
-            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(723, 109);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(824, 612);
@@ -525,7 +521,8 @@ namespace 期中專題
             // 
             // btn_Del
             // 
-            this.btn_Del.BackColor = System.Drawing.Color.Firebrick;
+            this.btn_Del.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Del.BackgroundImage = global::Igo_Back.Properties.Resources.圖片36;
             this.btn_Del.Font = new System.Drawing.Font("微軟正黑體", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_Del.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Del.Location = new System.Drawing.Point(603, 330);
@@ -536,15 +533,23 @@ namespace 期中專題
             this.btn_Del.UseVisualStyleBackColor = false;
             this.btn_Del.Click += new System.EventHandler(this.btn_Del_Click);
             // 
-            // pictureBox1
+            // dgv_PreviewAdd
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::Igo_Back.Properties.Resources.rgbWatame;
-            this.pictureBox1.Location = new System.Drawing.Point(503, 330);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 263);
-            this.pictureBox1.TabIndex = 35;
-            this.pictureBox1.TabStop = false;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_PreviewAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgv_PreviewAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_PreviewAdd.Location = new System.Drawing.Point(36, 419);
+            this.dgv_PreviewAdd.Name = "dgv_PreviewAdd";
+            this.dgv_PreviewAdd.RowTemplate.Height = 24;
+            this.dgv_PreviewAdd.Size = new System.Drawing.Size(549, 69);
+            this.dgv_PreviewAdd.TabIndex = 27;
+            this.dgv_PreviewAdd.Visible = false;
             // 
             // Frm_SupplierData
             // 
@@ -567,7 +572,6 @@ namespace 期中專題
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Upate_Delete)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_PreviewAdd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Search)).EndInit();
             this.grb_資料查詢.ResumeLayout(false);
             this.grb_Search_F_City.ResumeLayout(false);
@@ -578,7 +582,7 @@ namespace 期中專題
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_PreviewAdd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -604,7 +608,6 @@ namespace 期中專題
         private System.Windows.Forms.BindingSource bindingSource2;
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.Button btn_ADD;
-        private System.Windows.Forms.DataGridView dgv_PreviewAdd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_Search_F_SplName;
@@ -623,6 +626,6 @@ namespace 期中專題
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btn_Del;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dgv_PreviewAdd;
     }
 }

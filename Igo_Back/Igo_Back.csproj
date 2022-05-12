@@ -265,6 +265,17 @@
       <DependentUpon>IgoModel.edmx</DependentUpon>
       <LastGenOutput>IgoModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\圖片69.jpg" />
+    <None Include="Resources\圖片43.jpg" />
+    <None Include="Resources\圖片66.jpg" />
+    <None Include="Resources\圖片67.jpg" />
+    <None Include="Resources\圖片57.jpg" />
+    <None Include="Resources\圖片55.jpg" />
+    <None Include="Resources\istockphoto-1326607478-170667a.jpg" />
+    <None Include="Resources\圖片401.jpg" />
+    <None Include="Resources\圖片40.jpg" />
+    <None Include="Resources\圖片36.jpg" />
+    <None Include="Resources\圖片51.jpg" />
     <None Include="Resources\rgbWatame.gif" />
     <None Include="Resources\圖片381.jpg" />
     <None Include="Resources\images.png" />
