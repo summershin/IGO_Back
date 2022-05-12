@@ -265,6 +265,50 @@
       <DependentUpon>IgoModel.edmx</DependentUpon>
       <LastGenOutput>IgoModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\images.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\004.png" />
+    <None Include="Resources\002.png" />
+    <None Include="Resources\000.png" />
+    <None Include="Resources\001.png" />
+    <None Include="Resources\003.png" />
+    <None Include="Resources\圖片39.jpg" />
+    <None Include="Resources\圖片9.png" />
+    <None Include="Resources\圖片8.png" />
+    <None Include="Resources\圖片71.png" />
+    <None Include="Resources\圖片7.png" />
+    <None Include="Resources\圖片38.jpg" />
+    <None Include="Resources\圖片37.jpg" />
+    <None Include="Resources\021.jpg1.png" />
+    <None Include="Resources\0051.png" />
+    <None Include="Resources\圖片6.png" />
+    <None Include="Resources\圖片5.png" />
+    <None Include="Resources\圖片34.jpg" />
+    <None Include="Resources\圖片3.png" />
+    <None Include="Resources\021.jpg.png" />
+    <None Include="Resources\04.jpg.png" />
+    <None Include="Resources\03.jpg.png" />
+    <None Include="Resources\02.jpg.png" />
+    <None Include="Resources\01.jpg.png" />
+    <None Include="Resources\020.jpg" />
+    <None Include="Resources\005.png" />
+    <None Include="Resources\017.jpg.png" />
+    <None Include="Resources\019.jpg.png" />
+    <None Include="Resources\018.jpg.png" />
+    <None Include="Resources\圖片21.jpg" />
+    <None Include="Resources\圖片2.jpg" />
+    <None Include="Resources\016.jpg.png" />
+    <None Include="Resources\圖片12.jpg" />
+    <None Include="Resources\圖片11.jpg" />
+    <None Include="Resources\圖片1.jpg" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\1.PNG" />
+    <None Include="Resources\07.png" />
+    <None Include="Resources\05.png" />
+    <None Include="Resources\04.png" />
+    <None Include="Resources\03.png" />
+    <None Include="Resources\06.png" />
+    <None Include="Resources\02.png" />
     <None Include="Resources\images.jpg" />
   </ItemGroup>
   <ItemGroup>
