@@ -116,7 +116,7 @@ namespace 期中專題.BackEnd
             this.btn_MemberM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_MemberM.Image = global::Igo_Back.Properties.Resources._016_jpg;
             this.btn_MemberM.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_MemberM.Location = new System.Drawing.Point(17, 276);
+            this.btn_MemberM.Location = new System.Drawing.Point(17, 274);
             this.btn_MemberM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_MemberM.Name = "btn_MemberM";
             this.btn_MemberM.Size = new System.Drawing.Size(135, 44);
@@ -133,7 +133,7 @@ namespace 期中專題.BackEnd
             this.btn_ProductM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_ProductM.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_ProductM.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_ProductM.Location = new System.Drawing.Point(17, 146);
+            this.btn_ProductM.Location = new System.Drawing.Point(17, 82);
             this.btn_ProductM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_ProductM.Name = "btn_ProductM";
             this.btn_ProductM.Size = new System.Drawing.Size(136, 44);
@@ -150,7 +150,7 @@ namespace 期中專題.BackEnd
             this.btn_OrdersM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_OrdersM.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_OrdersM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_OrdersM.Location = new System.Drawing.Point(17, 18);
+            this.btn_OrdersM.Location = new System.Drawing.Point(18, 146);
             this.btn_OrdersM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_OrdersM.Name = "btn_OrdersM";
             this.btn_OrdersM.Size = new System.Drawing.Size(135, 44);
@@ -166,7 +166,7 @@ namespace 期中專題.BackEnd
             this.btn_SupplierM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_SupplierM.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_SupplierM.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_SupplierM.Location = new System.Drawing.Point(17, 211);
+            this.btn_SupplierM.Location = new System.Drawing.Point(17, 18);
             this.btn_SupplierM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_SupplierM.Name = "btn_SupplierM";
             this.btn_SupplierM.Size = new System.Drawing.Size(135, 44);
@@ -182,7 +182,7 @@ namespace 期中專題.BackEnd
             this.btn_FeedBackM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_FeedBackM.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_FeedBackM.ForeColor = System.Drawing.Color.FloralWhite;
-            this.btn_FeedBackM.Location = new System.Drawing.Point(17, 79);
+            this.btn_FeedBackM.Location = new System.Drawing.Point(18, 210);
             this.btn_FeedBackM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_FeedBackM.Name = "btn_FeedBackM";
             this.btn_FeedBackM.Size = new System.Drawing.Size(135, 44);
