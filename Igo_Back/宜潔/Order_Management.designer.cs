@@ -412,6 +412,7 @@ namespace IGO
             this.txt_OrderID.BackColor = System.Drawing.Color.White;
             this.txt_OrderID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_OrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txt_OrderID.ForeColor = System.Drawing.SystemColors.MenuText;
             this.txt_OrderID.Location = new System.Drawing.Point(87, 63);
             this.txt_OrderID.Margin = new System.Windows.Forms.Padding(2);
             this.txt_OrderID.Name = "txt_OrderID";
@@ -449,7 +450,7 @@ namespace IGO
             this.txt_CusPhone.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_CusPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_CusPhone.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txt_CusPhone.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.txt_CusPhone.ForeColor = System.Drawing.SystemColors.MenuText;
             this.txt_CusPhone.Location = new System.Drawing.Point(87, 114);
             this.txt_CusPhone.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CusPhone.Name = "txt_CusPhone";

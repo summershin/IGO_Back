@@ -395,8 +395,8 @@ namespace IGO
             ShowOrderInfo();          
             //===================================================
             //加入產品型態選單
-            var q2 = (from o in dbContext.Orders
-                      select o.Status.StatusName).Distinct();
+            var q2 = (from st in dbContext.Status
+                      select st.StatusName).Distinct();
 
             var Q = q2.ToList();
             for (int i = 0; i < Q.Count(); i++)
