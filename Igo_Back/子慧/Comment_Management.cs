@@ -202,7 +202,8 @@ namespace IGO
             
             
                 DGV_Comment.DataSource = q.ToList();
-            
+            Lb_WithComment.Text = "日期篩選評論共" + q.Count() + "筆";
+
         }
 
         private void Bt_SearchByProduct_Click(object sender, EventArgs e)
@@ -226,6 +227,7 @@ namespace IGO
 
 
             DGV_Comment.DataSource = q.ToList();
+            Lb_WithComment.Text = "產品篩選評論共" + q.Count() + "筆";
         }
 
        //=============================左半部===============================================
@@ -239,7 +241,7 @@ namespace IGO
                     select new
                     {
                         f.FeedbackID,
-                       // f.CustomerID,
+                       f.CustomerID,
                         CustomerName = f.Customer.LastName + f.Customer.FirstName,
                         f.FeedbackContent,
                         f.Ranking,
@@ -267,26 +269,29 @@ namespace IGO
                 return;
             }
 
-            if (Tb_Comment.Text==" ")
-            {
-                MessageBox.Show("缺少必要評論!");
-                return;
-            }
-            if (Tb_Detail.Text == "")
+            else if (Tb_Detail.Text == "")
             {
                 MessageBox.Show("缺少必要產品ID!");
                 return;
             }
-            if (Tb_CustomerNumber.Text == "")
+            else if (Tb_CustomerNumber.Text == "")
             {
                 MessageBox.Show("缺少必要客戶ID!");
                 return;
             }
-            if (Tb_Star.Text == " ")
+
+            else if (Tb_Star.Text == "")
             {
                 MessageBox.Show("缺少必要五星評分");
                 return;
             }
+            else  if (Tb_Comment.Text=="")
+            {
+                MessageBox.Show("缺少必要評論!");
+                return;
+            }
+           
+            
             FeedbackManagement feedback = new FeedbackManagement
             {
                 ProductsID = Convert.ToInt32(Tb_Detail.Text),
@@ -404,7 +409,7 @@ namespace IGO
                 Tb_Comment.Text = DGV_Comment.CurrentRow.Cells[3].Value.ToString();
                 Tb_Star.Text = DGV_Comment.CurrentRow.Cells[4].Value.ToString();
                 Tb_CustomerNumber.Text = DGV_Comment.CurrentRow.Cells[1].Value.ToString();
-                DTP_Date.Value = (DateTime)DGV_Comment.CurrentRow.Cells[7].Value;
+                //DTP_Date.Value = (DateTime)DGV_Comment.CurrentRow.Cells[7].Value;
              
              
         }
